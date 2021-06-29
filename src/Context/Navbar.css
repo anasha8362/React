@@ -1,0 +1,40 @@
+﻿.bg-light {
+    background-color: #1abc9c !important;
+}
+
+.btn {
+    background: whitesmoke;
+}
+.imgg {
+    width: 70px;
+}
+h3 {
+    color: #ffffff;
+    font: normal 36px 'Open Sans', cursive !important;
+    margin: 0;
+}
+    h3 span {
+        color: #198754;
+    }
+.logo {
+    margin-top: 10px !important;
+    display: inline-block;
+    vertical-align: top;
+}
+.btn {
+    width: 100px ;
+    
+}
+.btn {
+    background: #1abc9c;
+}
+.nav-linkk {
+    color: white !important;
+}
+.navText {
+    font-size: 20px;
+    color: white;
+}
+.cont {
+    margin-left: 50px;
+}

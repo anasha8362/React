@@ -1,0 +1,138 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+.Inp, txtArea {
+    outline: none;
+}
+.showing{
+    color: black !important;
+}
+
+.bdy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #5a7233;
+}
+.footer-links{
+    font-size: 20px;
+    width: 85%;
+    color: white;
+}
+.he {
+    color: #198754;
+    margin-top: 0;
+    font-weight: 500;
+}
+
+.decor {
+    position: relative;
+    width: 80%;
+    border-radius: 30px;
+    background: #fff;
+}
+
+.LeftDecoration,
+.rightDecoration {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 20px;
+    border-radius: 20px;
+    background: #5a7233;
+}
+
+.LeftDecoration {
+    bottom: 60px;
+    left: -30px;
+}
+
+.rightDecoration {
+    top: 60px;
+    right: -30px;
+}
+
+    .LeftDecoration:before,
+    .LeftDecoration:after,
+    .rightDecoration:before,
+    .rightDecoration:after {
+        content: "";
+        position: absolute;
+        width: 50px;
+        height: 20px;
+        border-radius: 30px;
+        background: #fff;
+    }
+
+.LeftDecoration:before {
+    top: -20px;
+}
+
+.LeftDecoration:after {
+    top: 20px;
+    left: 10px;
+}
+
+.rightDecoration:before {
+    top: -20px;
+    right: 0;
+}
+
+.rightDecoration:after {
+    top: 20px;
+    right: 10px;
+}
+
+.circle {
+    position: absolute;
+    bottom: 80px;
+    left: -55px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.form-inner {
+    padding: 40px;
+}
+
+.Inp,
+.txtArea {
+    display: block !important;
+    width: 100% !important;
+    padding: 15px !important;
+    margin-bottom: 10px !important;
+    border: none !important;
+    border-radius: 20px !important;
+    background: #d0dfe8 !important;
+}
+
+.txtArea {
+    resize: none;
+}
+
+.Bbtn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: none;
+    border-bottom: 4px solid #3e4f24;
+    background: #5a7233;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+    .Bbtn:hover {
+        background: #3e4f24;
+    }
+
+@media (min-width: 568px) {
+    .decor {
+        width: 60%;
+    }
+}
